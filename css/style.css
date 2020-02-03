@@ -3,7 +3,9 @@
 }
 
 .texto-link{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid transparent;
 }
 
 .rede-social{
@@ -24,3 +26,25 @@
     color: #393a3c;
 }
 
+.languages-icon{
+    width: 30px;
+    height: 27px;
+}
+
+.menu-buttons{
+    background-color: #dc3545;
+    border-style: none;
+}
+.menu-buttons:hover{
+    background-color: #f15429;
+    /* border-style: groove; */
+    /* border: 1px groove #ffffff; */
+    /* border-color: black; */
+    border-color: #dae0e5;
+}
+
+#p-language{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
