@@ -32,6 +32,7 @@
 }
 
 .menu-buttons{
+    color: #ffffff;
     background-color: #dc3545;
     border-style: none;
 }
@@ -41,10 +42,25 @@
     /* border: 1px groove #ffffff; */
     /* border-color: black; */
     border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+    transition: background-color, box-shadow 0.5s;
 }
 
-#p-language{
+#t-language{
     font-size: 1rem;
     font-weight: bold;
     color: #ffffff;
 }
+
+.t-bandeira{
+
+}
+
+.menu-buttons:focus{
+ background-color: #6f4640;
+ box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+ transition: background-color 2s;
+}
+
+
+
