@@ -1,10 +1,9 @@
 .nav{
-    height: 4rem;
+    height: 4.6rem;
 }
 
 .texto-link{
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.2rem;
     border: 1px solid transparent;
 }
 
@@ -47,20 +46,22 @@
 }
 
 #t-language{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #ffffff;
 }
 
-.t-bandeira{
+
+.logo-menu{
+    width: 50px;
+    height: 28x;
+    
 
 }
-
 .menu-buttons:focus{
  background-color: #6f4640;
  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
  transition: background-color 2s;
 }
-
 
 

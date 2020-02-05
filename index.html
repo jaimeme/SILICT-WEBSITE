@@ -14,10 +14,10 @@
 </head>
 
 <body>
-  <nav class="nav navbar fixed-top navbar-expand-lg navbar-dark bg-danger">
+  <nav class="nav navbar fixed-top navbar-expand-lg navbar-dark bg-danger font-weight-bold text-monospace">
+    <!-- logo menu -->
     <a class="navbar-brand mx-3" href="#">
-      <!-- img LOGO -->
-      SILICTI
+      <img class="logo-menu" src="/images/logobranca.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +37,7 @@
         <li class="nav-item active mx-4">
           <a class="nav-link texto-link list-group-item menu-buttons" href="#programacao">Programação</a>
         </li>
+        <!-- primeiro dropdown -->
         <li class="nav-item active dropdown mx-4">
           <a class="nav-link dropdown-toggle texto-link list-group-item menu-buttons rounded" href="#" id="navbarDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mais</a>
@@ -52,6 +53,8 @@
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
       <form> -->
+      
+      <!-- segundo dropdown / dropleft -->
       <form class="form-inline my-2 my-lg-0">
       <div class="dropleft">
         <button class="btn dropdown-toggle list-group-item menu-buttons" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -84,7 +87,7 @@
               <p><a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a> </p>
             </div> -->
           </div>
-          <p class="text-center">Para realizar a submissão, é necessário a inscrição de no mínimo 1 (um) dos autores do trabalho.</p>
+          <p class="text-center lead font-weight-bold">Para realizar a submissão, é necessário a inscrição de no mínimo 1 (um) dos autores do trabalho.</p>
         </div>
       </div>
     </div>
@@ -214,7 +217,7 @@
                   <a href="#" class="list-group-item">
                     24/7 Support
                   </a>
-                  <div class="list-group-item">
+                  <div class="list-group-item pb-5">
                     <button class="btn btn-success btn-lg btn-block text-truncate">Contact Us</button>
                   </div>
                 </div>
@@ -226,7 +229,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-6 col-12">
         <h2>IFPA</h2>
@@ -249,11 +252,12 @@
           odit aliquam voluptatem ab. Earum.</p>
       </div>
     </div>
-    
+     -->
   </div>
-  <hr>
+
+  <hr id="videos" class="py-5">
   <section>
-    <h2 class="text-center">Video Tutorial</h2>
+    <h1 class="text-center display-1 pb-5" >Video Tutorial</h1>
     
     <div class="container mt-4">
       <div class="row">
@@ -266,7 +270,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-5">
           <div class="card"><img src="images/UTAD.jpg" width="472" height="300" alt=""/>
             <div class="card-body">
               <h5 class="card-title">Feature</h5>
@@ -277,8 +281,11 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
+    
+    
+    <!-- start video responsivo grande -->
+    
+    <!-- <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="embed-responsive embed-responsive-16by9">
@@ -287,8 +294,11 @@
         </div>
       </div>
     </div>
-  </section>
-  <!-- carousel video owl -->
+  </section> -->
+
+  <!-- end video responsivo grande -->
+
+  <!-- start carousel video owl -->
   <section>
     <div class="owl-carousel owl-theme">
       <div class="item-video" data-merge="3"><a class="owl-video" href="https://vimeo.com/23924346"></a></div>
@@ -298,39 +308,43 @@
   </section>
   <!-- end carousel video owl -->
   
+
   <!-- carousel slide -->
   <!-- deixar carousel responsivo -->
-  
-  <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto mt-4" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="images/600X300.gif" alt="Primeiro Slide">
+  <hr class="my-5" id="palestrantes">
+  <h1 class="text-center display-1 py-5" >Palestrantes</h1>
+  <div class="container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto mt-4" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/600X300.gif" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/600X300.gif" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/600X300.gif" alt="Terceiro Slide">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/600X300.gif" alt="Segundo Slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/600X300.gif" alt="Terceiro Slide">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>  
   </div>
   <!-- end carousel slide -->
   
  
-  <hr>
+  <hr class="my-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 mb-md-0 mb-2">
