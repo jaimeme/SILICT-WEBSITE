@@ -37,9 +37,6 @@
 }
 .botoes-menu:hover {
   background-color: #f15429;
-  /* border-style: groove; */
-  /* border: 1px groove #ffffff; */
-  /* border-color: black; */
   border-color: #dae0e5;
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
   transition: background-color, box-shadow 0.5s;
@@ -68,7 +65,6 @@
 }
 
 .navbar-dark .navbar-toggler {
-  /* margin-bottom: 0px; */
   color: rgba(255, 255, 255, 1);
   border-color: rgba(255, 255, 255, 1);
 }
