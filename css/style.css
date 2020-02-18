@@ -87,9 +87,6 @@
 }
 
 @media (max-width: 991px) {
-  .t-link-left {
-    margin-left: 200px;
-  }
   .navbar {
     padding-top: 7px;
   }
