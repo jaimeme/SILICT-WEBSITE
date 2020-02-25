@@ -74,6 +74,10 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
+.display-1{
+  font-size:calc(50px + 3.5vw);
+}
+
 @media (max-width: 1048px) {
   .logo-menu {
     margin-top: 0px;
@@ -94,6 +98,10 @@
   #t-language {
     font-size: 1.04rem;
   }
+
+  /* .display-1{
+    font-size: 3rem;
+  } */
 }
 
 /* mapa responsivo */
