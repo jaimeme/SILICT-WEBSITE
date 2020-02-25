@@ -75,13 +75,6 @@
 }
 
 @media (max-width: 1048px) {
-  .texto-link {
-    font-size: 1.04rem;
-  }
-
-  #t-language {
-    font-size: 1.04rem;
-  }
   .logo-menu {
     margin-top: 0px;
   }
@@ -91,7 +84,19 @@
   .navbar {
     padding-top: 7px;
   }
+  .texto-link-padding{
+    padding-left: 7px;
+  }
+  .texto-link {
+    font-size: 1.04rem;
+  }
+
+  #t-language {
+    font-size: 1.04rem;
+  }
 }
+
+/* mapa responsivo */
 
 .mapWrapper {
   position: relative;
