@@ -240,7 +240,8 @@
     <div class="container mt-4">
       <div class="row">
         <div class="col-sm-6">
-          <div class="card"><img src="images/05-ifpacastanhal.jpg" width="453" height="300" alt="" />
+          <div class="card">
+            <img class="card-img-top" src="images/05-ifpacastanhal.jpg" alt="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">IFPA CASTANHAL</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, at.</p>
@@ -248,8 +249,9 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 mb-5">
-          <div class="card"><img src="images/UTAD.jpg" width="472" height="300" alt="" />
+        <div class="col-sm-6">
+          <div class="card">
+            <img class="card-img-top" src="images/UTAD.jpg" alt="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">Feature</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, at.</p>
@@ -261,50 +263,47 @@
     </div>
 
 
-    <section>
-      <div class="owl-carousel owl-theme">
-        <div class="item-video" data-merge="3"><a class="owl-video" href="https://vimeo.com/23924346"></a></div>
-        <div class="item-video" data-merge="3"><a class="owl-video"
-            href="https://www.youtube.com/watch?v=JpxsRwnRwCQ"></a></div>
-        <div class="item-video" data-merge="3"><a class="owl-video"
-            href="https://www.youtube.com/watch?v=FBu_jxT1PkA"></a></div>
-      </div>
-    </section>
-    <!-- end carousel video owl -->
-
-
     <!-- carousel slide -->
     <!-- deixar carousel responsivo -->
-    <hr class="my-5" id="palestrantes">
-    <h1 class="text-center display-1 py-5">Palestrantes</h1>
-    <div class="container">
-      <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto mt-4" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/600X300.gif" alt="Primeiro Slide">
+    <div class="container"></div>
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+
+      <div class="carousel-inner">
+        <hr class="my-5" id="palestrantes">
+        <h1 class="text-center display-1 py-5">Palestrantes</h1>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto mt-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+
+
+
+          <div class="carousel-item active" data-interval="10000">
+            <img src="/images/600X300.gif" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="/images/600X300.gif" class="d-block w-100" alt="/images/600X300.gif">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/600X300.gif" alt="Segundo Slide">
+            <img src="/images/600X300.gif" class="d-block w-100" alt="/images/600X300.gif">
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/600X300.gif" alt="Terceiro Slide">
-          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
       </div>
     </div>
+    </div>
+
     <!-- end carousel slide -->
 
     <hr class="my-5">
