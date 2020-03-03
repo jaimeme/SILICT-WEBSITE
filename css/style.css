@@ -124,11 +124,6 @@
     font-size: 1.04rem;
   }
 
-  /* .display-1{
-    font-size: 3rem;
-  } */
-}
-
 /* mapa responsivo */
 
 .mapWrapper {
@@ -146,3 +141,8 @@
   height: 100%;
 }
 
+/* inverter cores para deixar o botão de controle em dark style  */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
