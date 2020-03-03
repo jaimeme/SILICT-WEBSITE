@@ -78,6 +78,31 @@
   font-size:calc(50px + 3.5vw);
 }
 
+.card-img-top{
+  height: 300px;
+}
+
+#ifpa{
+  width: 120px;
+  height: 120px;
+}
+
+#utad{
+  width: 208px;
+  height: 140px;
+}
+
+#alicante{
+  width: 200px;
+  height: 200px;
+}
+
+#lemans{
+  width: 350px;
+  height: 140px;
+}
+
+
 @media (max-width: 1048px) {
   .logo-menu {
     margin-top: 0px;
@@ -121,26 +146,3 @@
   height: 100%;
 }
 
-.card-img-top{
-  height: 300px;
-}
-
-#ifpa{
-  width: 120px;
-  height: 120px;
-}
-
-#utad{
-  width: 208px;
-  height: 140px;
-}
-
-#alicante{
-  width: 200px;
-  height: 200px;
-}
-
-#lemans{
-  width: 350px;
-  height: 140px;
-}

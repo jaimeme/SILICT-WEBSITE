@@ -3,3 +3,4 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 // adicionar classe dropdown no menu language para facilitar a visualização 
+
